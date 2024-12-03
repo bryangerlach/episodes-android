@@ -7,7 +7,7 @@ jobs:
   android-release-build:
     name: android-release-build
     runs-on: ubuntu-latest
-    container: ghcr.io/niklaslehnfeld/flutter-essentials-docker:master
+    container: ghcr.io/cirruslabs/flutter:3.24.5
     steps:
       - uses: actions/checkout@v2
       - uses: NiklasLehnfeld/flutter-android-build-action@v2
